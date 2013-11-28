@@ -60,7 +60,9 @@
 #include <media/stagefright/MediaSource.h>
 #include <media/stagefright/MetaData.h>
 #include <media/stagefright/OMXCodec.h>
+#ifdef QCOM_HARDWARE
 #include "include/ExtendedUtils.h"
+#endif
 #include <media/stagefright/Utils.h>
 
 #include <gui/IGraphicBufferProducer.h>
